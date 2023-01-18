@@ -19,3 +19,9 @@ a {
   font-weight: 900;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+h1.newscientist {
+  font-size: 60px;
+  letter-spacing: -5px;
+  font-family: "PT SERIF", Georgia, 'Times New Roman', Times, serif;
+}
