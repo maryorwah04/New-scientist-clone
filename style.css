@@ -1,46 +1,21 @@
-div.topic {
-    margin-top: 200px;
-    display: flex;
-    text-align: center;
-  }
-  
-  div.newsletter {
-    width: 100%;
-    margin-top: 60px;
-  }
-  span#NL {
-    color: #00bcfc;
-  }
-  
-  a {
-    text-decoration: none;
-    font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-  }
-  
-  div.n-scientist {
-    width: 100%;
-    font-family: "PT SERIF", Georgia, 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-size: xx-large;
-    font-weight: 600;
-    letter-spacing: -5px;
-  }
-  
-  div.price-sale {
-    width: 100%;
-    margin-top: 50px;
-  }
-  
-  div.price-sale1 {
-    background-color: #00bcfc;
-    width: 250px;
-    margin-left: 100px;
-    height: 30px;
-  }
-  
-  #HPS {
-    color: azure;
-  }
-  
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  /*background-color: blue;*/
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.newsletter {
+  color: #00bcfc;
+  font-weight: 600;
+}
