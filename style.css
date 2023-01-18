@@ -25,3 +25,14 @@ h1.newscientist {
   letter-spacing: -5px;
   font-family: "PT SERIF", Georgia,; 
 }
+
+.halfpricesale {
+  color: antiquewhite;
+  font-weight: 900;
+  background-color: #00bcfc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 15rem;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
