@@ -16,5 +16,6 @@ a {
 
 .newsletter {
   color: #00bcfc;
-  font-weight: 600;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
