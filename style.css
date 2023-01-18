@@ -10,14 +10,11 @@ body {
   align-items: center;
 }
 
-a {
-  text-decoration: none;
-}
-
 .newsletter {
   color: #00bcfc;
   font-weight: 900;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
 
 h1.newscientist {
@@ -35,4 +32,15 @@ h1.newscientist {
   text-align: center;
   height: 20px;
   line-height: 20px;
+  text-decoration: none;
+}
+
+.nav-links  {
+  display: flex;
+}
+
+li {
+  width: 100%;
+  color: black;
+  list-style: none;
 }
