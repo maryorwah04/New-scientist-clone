@@ -5,7 +5,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 200px;
   align-items: center;
 }
@@ -37,10 +37,62 @@ h1.newscientist {
 
 .nav-links  {
   display: flex;
+  margin-right: 10px;
 }
 
 li {
   width: 100%;
-  color: black;
   list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+li a {
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+
+.ext-more {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: black;
+}
+.ext-more:hover {
+  border-bottom: 8px solid black;
+}
+
+a.extra {
+  color: black;
+}
+
+a.extra:hover {
+  border-bottom: 8px solid black;
+  color: #00bcfc;
+}
+
+a.extratwo {
+  color: #00bcfc;
+}
+
+a.extratwo:hover {
+  border-bottom: 8px solid black;
+}
+
+.ext-more:hover .dropdown-content {
+  display: block;
+}
+
+div.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /*z-index: 1;*/
+}
+
+.ext-more {
+  position: relative;
+  display: inline-block;
 }
