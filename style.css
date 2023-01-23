@@ -148,6 +148,9 @@ img {
 
 .ref {
   margin-top: 0;
+  text-decoration: none;
+  color: #00bcfc;
+}
 }
 
 .more {
@@ -201,11 +204,6 @@ details {
 
 em {
   font-weight: 300;
-}
-
-.ref {
-  text-decoration: none;
-  color: #00bcfc;
 }
 
 .details-para {
