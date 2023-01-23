@@ -17,6 +17,16 @@ body {
   text-decoration: none;
 }
 
+.newsletter-para {
+  margin-top: 0px;
+  color: #999;
+  font-family: "PT Serif",Georgia,serif;
+}
+
+.newsletter-para:hover {
+  text-decoration: underline;
+}
+
 h1.newscientist {
   font-size: 60px;
   letter-spacing: -5px;
@@ -87,12 +97,12 @@ div.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 100px;
+  width: fit-content;
 }
 
 .line {
   height: 1px;
-  background-color: black;
+  background-color: black;  
   width: 200rem;
   margin-top: -10px;
   margin-left: -100px;
