@@ -117,3 +117,19 @@ div.dropdown-content {
 .title-paragraph {
   margin-top: 5px;
 }
+
+.about {
+  margin-left: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.space {
+ font-weight: bolder;
+ color: darkslategrey;
+ text-decoration: none;
+}
+
+.leah {
+  text-decoration: none;
+  color: #00bcfc;
+}
