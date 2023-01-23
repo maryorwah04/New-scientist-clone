@@ -137,3 +137,18 @@ div.dropdown-content {
 img {
   margin-left: 50px;
 }
+
+.caption {
+  margin-left: 50px;
+  color: brown;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 11px;
+}
+
+.ref {
+  margin-top: 0px;
+}
+
+.more {
+  font-weight: bold;
+}
