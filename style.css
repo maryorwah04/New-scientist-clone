@@ -156,7 +156,7 @@ img {
 
 .content-one {
   margin-left: 50px;
-  font-family: "PT Serif",Georgia,serif;
+  font-family: "PT Serif", Georgia, serif;
   font-size: large;
 }
 
@@ -172,7 +172,7 @@ img {
 #r-more {
   background-color: #f5f5f5;
   margin-left: 50px;
-  font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
   height: 40px;
   line-height: 40px;
   padding-left: 10px;
@@ -186,7 +186,7 @@ a.r-more {
 
 .content-two {
   margin-left: 50px;
-  font-family: "PT Serif",Georgia,serif;
+  font-family: "PT Serif", Georgia, serif;
   font-size: large;
 }
 
@@ -196,7 +196,7 @@ details {
 }
 
 .details {
-  font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
 }
 
 em {
@@ -216,7 +216,7 @@ em {
 p.more {
   margin-left: 50px;
   margin-top: 40px;
-  font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
 }
 
 button {
