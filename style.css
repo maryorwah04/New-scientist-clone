@@ -211,3 +211,18 @@ em {
   margin-left: 50px;
   font-size: large;
 }
+
+p.more {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+}
+
+button {
+  height: 30px;
+  background-color: #005587;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
