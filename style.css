@@ -103,7 +103,7 @@ div.dropdown-content {
 .line {
   height: 1px;
   background-color: black;  
-  width: 200rem;
+  width: 84.5rem;
   margin-top: -10px;
   margin-left: -100px;
 }
@@ -151,4 +151,19 @@ img {
 
 .more {
   font-weight: bold;
+}
+
+.content-one {
+  margin-left: 50px;
+  font-family: "PT Serif",Georgia,serif;
+  font-size: large;
+}
+
+.small-p {
+  margin-top: -10px;
+  color: brown;
+}
+
+.big-p {
+  margin-top: 30px;
 }
