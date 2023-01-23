@@ -206,3 +206,8 @@ em {
   text-decoration: none;
   color: #00bcfc;
 }
+
+.details-para {
+  margin-left: 50px;
+  font-size: large;
+}
