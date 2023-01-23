@@ -45,7 +45,7 @@ h1.newscientist {
   text-decoration: none;
 }
 
-.nav-links  {
+.nav-links {
   display: flex;
   margin-right: 10px;
 }
@@ -68,6 +68,7 @@ li a {
   font-weight: 900;
   color: black;
 }
+
 .ext-more:hover {
   border-bottom: 8px solid black;
 }
@@ -102,7 +103,7 @@ div.dropdown-content {
 
 .line {
   height: 1px;
-  background-color: black;  
+  background-color: black;
   width: 84.5rem;
   margin-top: -10px;
   margin-left: -100px;
@@ -124,9 +125,9 @@ div.dropdown-content {
 }
 
 .space {
- font-weight: bolder;
- color: darkslategrey;
- text-decoration: none;
+  font-weight: bolder;
+  color: darkslategrey;
+  text-decoration: none;
 }
 
 .leah {
@@ -146,7 +147,7 @@ img {
 }
 
 .ref {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .more {
