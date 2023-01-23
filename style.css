@@ -18,9 +18,9 @@ body {
 }
 
 .newsletter-para {
-  margin-top: 0px;
+  margin-top: 0;
   color: #999;
-  font-family: "PT Serif",Georgia,serif;
+  font-family: "PT Serif", Georgia, serif;
 }
 
 .newsletter-para:hover {
