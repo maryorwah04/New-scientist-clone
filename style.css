@@ -183,3 +183,8 @@ a.r-more {
   text-decoration: none;
 }
 
+.content-two {
+  margin-left: 50px;
+  font-family: "PT Serif",Georgia,serif;
+  font-size: large;
+}
