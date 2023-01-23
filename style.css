@@ -167,3 +167,19 @@ img {
 .big-p {
   margin-top: 30px;
 }
+
+#r-more {
+  background-color: #f5f5f5;
+  margin-left: 50px;
+  font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+a.r-more {
+  color: #00bcfc;
+  text-decoration: none;
+}
+
