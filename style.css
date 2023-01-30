@@ -15,12 +15,14 @@ body {
   font-weight: 900;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
+  margin-left: 20px;
 }
 
 .newsletter-para {
   margin-top: -1px;
   color: #999;
-  font-family: "PT Serif", Georgia, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  word-spacing: -2px;
 }
 
 .newsletter-para:hover {
@@ -38,11 +40,12 @@ h1.newscientist {
   font-weight: 900;
   background-color: #00bcfc;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 15rem;
+  width: 13rem;
   text-align: center;
-  height: 20px;
-  line-height: 20px;
+  height: 30px;
+  line-height: 30px;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .nav-links {
@@ -51,10 +54,8 @@ h1.newscientist {
 }
 
 li {
-  width: 100%;
+  flex: auto;
   list-style: none;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 li a {
