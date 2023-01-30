@@ -161,6 +161,7 @@ img {
   margin-left: 50px;
   font-family: "PT Serif", Georgia, serif;
   font-size: large;
+  max-width: 51rem;
 }
 
 .small-p {
@@ -180,6 +181,7 @@ img {
   line-height: 40px;
   padding-left: 10px;
   font-weight: bold;
+  max-width: 50rem;
 }
 
 a.r-more {
@@ -187,10 +189,33 @@ a.r-more {
   text-decoration: none;
 }
 
+.aside {
+  display: flex;
+  float: right;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+button.aside-links {
+  background-color: #f5f5f5;
+  margin: 1px;
+  color: black;
+  font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
+  font-size: 15px;
+  border-radius: 0px;
+  padding: 7px 7px 7px 7px;
+  cursor: pointer;
+}
+
+button.aside-links:hover{
+  background-color: rgb(226, 202, 202);
+}
+
 .content-two {
   margin-left: 50px;
   font-family: "PT Serif", Georgia, serif;
   font-size: large;
+  max-width: 51rem;
 }
 
 details {
