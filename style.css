@@ -209,12 +209,12 @@ button.aside-links {
   color: black;
   font-family: Titillium Web, Helvetica, Trebuchet MS, Arial, sans-serif;
   font-size: 15px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 7px 7px 7px 7px;
   cursor: pointer;
 }
 
-button.aside-links:hover{
+button.aside-links:hover {
   background-color: rgb(226, 202, 202);
 }
 
@@ -250,6 +250,7 @@ button.aside-links:hover{
   cursor: pointer;
   transition-duration: 1s;
 }
+
 .tab-para {
   margin-bottom: -30px;
 }
