@@ -105,9 +105,10 @@ div.dropdown-content {
 .line {
   height: 1px;
   background-color: black;
-  width: 117%;
+  width: 150%;
   margin-top: -10px;
   margin-left: -100px;
+  overflow-x: hidden;
 }
 
 .title {
