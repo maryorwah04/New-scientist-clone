@@ -1,6 +1,7 @@
 body {
   margin-left: 100px;
   margin-right: 100px;
+  overflow-x: hidden;
 }
 
 .header {
@@ -108,7 +109,6 @@ div.dropdown-content {
   width: 150%;
   margin-top: -10px;
   margin-left: -100px;
-  overflow-x: hidden;
 }
 
 .title {
