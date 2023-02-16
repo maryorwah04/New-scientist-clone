@@ -296,18 +296,16 @@ button {
   font-weight: bold;
 }
 
-
-
 form {
   background-color: #140808;
-  color: #FFF;
+  color: #fff;
   margin-left: 50px;
   height: fit-content;
   width: 500px;
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
-  font-family: 'Roboto', arial;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -333,14 +331,14 @@ textarea {
   border: 1px solid #999;
 }
 
-input:focus,
-textarea:focus {
-  border-color: #685656;
-}
-
 textarea {
   vertical-align: top;
   height: 5em;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #685656;
 }
 
 .opinion {
@@ -359,7 +357,6 @@ textarea {
 #Subscribe {
   width: auto;
   margin-left: 30px;
-
 }
 
 .check_q {
@@ -385,5 +382,3 @@ textarea {
   cursor: pointer;
   box-shadow: -6px 8px 1px #04466d;
 }
-
-
