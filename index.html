@@ -149,4 +149,36 @@
     </details>  
     <p class="details-para"><em> Sign up to our free<a class="ref" href="#"> Launchpad</a> newsletter for a voyage across the galaxy and beyond, every Friday</em></p>
     <p class="more">More on these topics: <button>PLANET</button> <button>MARS</button></p>
+
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" min="1" max="20"/>
+        </li>
+        <li>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" required min="1"  max="20"/>
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message" placeholder="Type your comment here" required maxlength="250"></textarea>
+        </li>
+        <li>
+        <div class="opinion">What is your overall opinion about this article?</div>
+        <div class="form_radio">
+          <input type="radio" name="opinion" value="Positive" checked> Positive
+          <input type="radio" name="opinion" value="Negative"> Negative
+          <input type="radio" name="opinion" value="Neutral"> Neutral
+        </div>
+        </li>
+      </ul>
+      <div class="check">
+       <input type="checkbox" name="choice" value="checked" id="Subscribe">
+       <label for="sport" class="check_q">“I want to subscribe to the newsletter”</label>
+     </div>
+
+     <button class="send">Send Message</button>
+    </form>
+    
 </html>
