@@ -51,7 +51,7 @@ h1.newscientist {
 
 .nav-links {
   display: flex;
-  margin-right: 10px;
+  margin-right: -40px;
 }
 
 li {
@@ -107,7 +107,7 @@ div.dropdown-content {
   height: 1px;
   background-color: black;
   width: 150%;
-  margin-top: -10px;
+  margin-top: 10px;
   margin-left: -100px;
 }
 
@@ -295,3 +295,95 @@ button {
   color: white;
   font-weight: bold;
 }
+
+
+
+form {
+  background-color: #140808;
+  color: #FFF;
+  margin-left: 50px;
+  height: fit-content;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  font-family: 'Roboto', arial;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #685656;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.opinion {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.form_radio {
+  display: flex;
+  width: 300px;
+  margin-left: 40px;
+  font-family: cursive;
+}
+
+#Subscribe {
+  width: auto;
+  margin-left: 30px;
+
+}
+
+.check_q {
+  display: inline;
+}
+
+.check {
+  margin-top: 20px;
+}
+
+.send {
+  font-family: cursive;
+  font-size: 20px;
+  height: 3rem;
+  width: 250px;
+  text-align: center;
+  margin-left: 8rem;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+
+.send:hover {
+  cursor: pointer;
+  box-shadow: -6px 8px 1px #04466d;
+}
+
+
