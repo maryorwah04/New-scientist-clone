@@ -4,6 +4,26 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  background: linear-gradient(to bottom, #ccc, #fff);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #264d64;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #264d64, #4599ca);
+}
+
 .header {
   display: flex;
   justify-content: space-around;
