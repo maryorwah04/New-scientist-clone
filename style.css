@@ -5,23 +5,22 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
   background: transparent;
-  background: linear-gradient(to bottom, #ccc, #fff);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #264d64;
-  border-radius: 10px;
+  background-color: lightblue;
+  border-radius: 3px;
   border: 1px solid black;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #264d64, #4599ca);
+  background-color: #b3a0a0;
 }
 
 .header {
